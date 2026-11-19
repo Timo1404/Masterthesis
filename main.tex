@@ -1,0 +1,65 @@
+\input{Preamble}
+\setcounter{secnumdepth}{4} % Aktiviert Nummerierung bis Ebene 4 (z. B. subsubsection)
+\setcounter{tocdepth}{4}    % Aktiviert Anzeige bis Ebene 4 im Inhaltsverzeichnis
+\begin{document}
+\include{Titlepage}
+
+\chapter*{Declaration}
+    %\textbf{Erklärung}\\
+    Hiermit versichere ich, dass ich die Bachelorarbeit mit dem Titel \textit{Quantum Communication Implementations based on Entangled Photons from Semiconductor Quantum Dots} selbständig mit Unterstützung meiner Betreuer angefertigt habe. Hierbei wurden keine nicht deklarierten Hilfsmittel genutzt. Alle Angaben, welche sinngemäß oder wörtlich anderen Werken entnommen wurden, sind als solche gekennzeichnet und in den Quellen zu finden. Die Arbeit oder wesentliche Bestandteile dieser wurden noch nicht veröffentlicht oder an einer Universität als Prüfungsleistung eingereicht.
+    
+    \vspace*{4cm}
+        \begin{tabular}{lp{2em}l}
+            \hspace{4cm}   && \hspace{3cm} \\\cline{1-1}\cline{3-3}
+            Ort, Datum     && Unterschrift
+        \end{tabular}
+    
+\newpage
+\tableofcontents
+\newpage 
+\chapter{Introduction}
+%\input{Introduction}
+
+\chapter{Theoretical Introduction}
+%\input{Theoretical Introduction}
+
+\chapter{Experimental methods}
+%\input{Experimental methods}
+
+\chapter{Results}
+%\input{Results}
+
+\chapter{Conclusion and Outlook}
+%\input{Conclusion and Outlook}
+
+\clearpage
+\vspace*{1.2cm}
+\hrule
+\vspace{-1.2cm}
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+\newpage
+\vspace*{1.2cm}
+\hrule
+\vspace{-1.2cm}
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+
+\chapter*{Acronyms}
+\addcontentsline{toc}{chapter}{Symbols and Acronyms}
+
+    %\subsection*{Symbols}
+        
+    %\subsection*{Acronyms}
+    %\input{Acronyms}
+
+
+\nocite{*}
+%\printbibliography
+\addcontentsline{toc}{chapter}{Sources}
+
+
+
+\end{document}

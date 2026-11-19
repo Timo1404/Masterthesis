@@ -1,0 +1,78 @@
+% !TeX root = main.tex
+\documentclass[12pt,openany]{book}
+\usepackage[backend=bibtex,hyperref=true,sorting=none]{biblatex}
+\usepackage[printonlyused,withpage]{acronym}
+\addbibresource{Sources.bib}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[version=4]{mhchem}
+\usepackage{amsmath}
+\usepackage{afterpage}
+\usepackage{float}
+\usepackage{icomma}
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{physics}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,shapes,calc}
+\usepackage{pst-all}
+\usepackage{pstricks}
+%\usepackage{pst-plot}
+\usepackage{pst-optexp}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage[hyperref=true,sorting=none]{biblatex}
+%\usepackage{cite}
+\usepackage{wrapfig}
+\usepackage[labelfont=bf,textfont=it]{caption}
+%\usepackage[exponent-product=\cdot]{siunitx}
+\geometry{a4paper,left=25mm,right=25mm,top=35mm,bottom=35mm}
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{mathtools}
+\usepackage{cleveref}
+\usepackage{xcolor}
+\usepackage[thinc]{esdiff}
+\definecolor{IHFG}{HTML}{0f1994}
+
+    \pagestyle{fancy}
+    \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+    \fancyhf{}
+    \renewcommand{\headrulewidth}{0.1mm}
+    \fancyhead[R]{\color{IHFG}\textbf{\thepage}}
+    \fancyhead[L]{\thechapter~\leftmark}
+    
+
+
+\usepackage{sectsty}
+\chapterfont{\color{IHFG}}  % sets colour of chapters
+\sectionfont{\color{IHFG}}
+\subsectionfont{\color{IHFG}}
+\subsubsectionfont{\color{IHFG}}
+
+\usepackage[subfigure]{tocloft}
+\renewcommand{\cfttoctitlefont}{\Huge\color{IHFG}\bfseries}
+\renewcommand{\cftloftitlefont}{\Huge\color{IHFG}\bfseries}
+\renewcommand{\cftlottitlefont}{\Huge\color{IHFG}\bfseries}
+\renewcommand{\cftchapfont}{\color{IHFG}\bfseries}
+\renewcommand{\cftaftertoctitle}{\\\rule{\linewidth}{0.25pt}\vspace*{3ex}}
+\renewcommand{\cftafterloftitle}{\\\rule{\linewidth}{0.25pt}\vspace*{3ex}}
+\renewcommand{\cftafterlottitle}{\\\rule{\linewidth}{0.25pt}\vspace*{3ex}}
+
+
+
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\bfseries\huge}
+  {\color{black}\LARGE\chaptertitlename~\thechapter}
+  {1ex}
+  {\titlerule\vspace{1ex}\filright\color{IHFG}}
+  [\color{black}\vspace{0.5ex}\titlerule]
+
+
+\setlength{\parindent}{0pt}
+\raggedbottom
